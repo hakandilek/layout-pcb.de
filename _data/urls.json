@@ -25,6 +25,6 @@
     "text": "XML Feed",
     "url": "/feed.xml",
     "icon": "fa-feed",
-    "target": _blank
+    "target": "_blank"
   }
 ]
