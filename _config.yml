@@ -25,6 +25,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 enableTags: true
 tagarray: []
