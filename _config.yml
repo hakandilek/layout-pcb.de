@@ -1,7 +1,7 @@
 title: PCB-Layout
 #description: Freelance PCB-Layout
 author: Kemal Tokay
-logo: /static/img/logo.png
+logo: static/img/logo.png
 email: info@layout-pcb.de
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
