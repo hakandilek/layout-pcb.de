@@ -1,23 +1,23 @@
 [
   {
     "text": "Home",
-    "url": "/",
+    "url": "",
     "icon": "fa-home",
     "layout": "post"
   },
   {
     "text": "Über uns",
     "url": "about/",
-    "icon": "fa-address-card"
+    "icon": "fa-file"
   },
   {
     "text": "Referenzen",
-    "url": "refs",
+    "url": "refs/",
     "icon": "fa-quote-right"
   },
   {
     "text": "Impressum",
-    "url": "#",
+    "url": "impressum/",
     "icon": "fa-graduation-cap"
   },
   {
