@@ -179,12 +179,6 @@ h1, h2, h3, h4, h5, h6 {
     content: ' '; } }
 .col-box-author {
   text-align: center; }
-  .col-box-author .avatar {
-    width: 135px;
-    height: 135px;
-    border-radius: 100%;
-    margin: 20px auto;
-    display: block; }
   .col-box-author .name {
     font-size: 16px; }
   .col-box-author .contact {
