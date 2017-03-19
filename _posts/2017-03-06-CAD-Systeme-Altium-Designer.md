@@ -15,14 +15,14 @@ permalink: /posts/altium-designer
 
 ## Templates
 
- * Die Templates werden über Preferences  System  New Document Defaults eingestellt.
+ * Die Templates werden über Preferences &rarr; System &rarr; New Document Defaults eingestellt.
  * PCB Project und Free Documents sollen verlinkt werden.
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/1.Templates.png)
 
 ## Libraries
 
- * Die Libraries werden Preferences  Data Management  Installed Libraries gewählt.
+ * Die Libraries werden Preferences &rarr; Data Management &rarr; Installed Libraries gewählt.
  * Durch viele lokale Libraries und Libraries am Server arbeitet Altium Langsamer. Daher können sie deaktiviert werden, wenn man sie gerade nicht braucht oder es wird empfohlen SVN zu nutzen und die Kopie lokal abzuspeichern.
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/2.Libraries.png)
@@ -31,21 +31,21 @@ permalink: /posts/altium-designer
 
  * In einem Schematic Template können die Texte Automatisch, Local oder Global geändert werden.
    * **Automatischen Wert:** z.B. DrawnDate 
- wenn man die Seite speichert, bekommt das aktuelle Datum automatisch.
-   * **Local Werte:** Z.B DrawnName, Checked –Date  und –Name, Module
- Rechte Maus Taste  Options  Document Parameters.
+&rarr; wenn man die Seite speichert, bekommt das aktuelle Datum automatisch.
+   * **Local Werte:** z.B DrawnName, Checked–Date  und –Name, Module
+&rarr; Rechte Maus Taste &rarr; Options &rarr; Document Parameters.
    * **Global Werte:** z.B. Project, Component und DrawingNumber
- Project Options  Parameters
+&rarr; Project Options &rarr; Parameters
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/3.SchematicTemplate.png)
 
   * Wenn man die Parameters in mehreren Seiten auf Einmal ändern will
-    *  Tools  Parameter Manager
+    * &rarr; Tools &rarr; Parameter Manager
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/3.SchematicTemplate2.png)
 
   * Wenn die Parameters geändert wird, wird danach bestätigt.  
-    * Accept Changes (Create ECO)  Execute Changes  Close
+    * Accept Changes (Create ECO) &rarr; Execute Changes &rarr; Close
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/3.SchematicTemplate3.png)
 
@@ -81,7 +81,7 @@ permalink: /posts/altium-designer
 
   * Wird in Projektdatei gespeichert.
   * Keine extra Datei.
-    *  Recte Maus Taste in To-Do     Add Project To-Do Item
+    * &rarr; Recte Maus Taste in To-Do    &rarr; Add Project To-Do Item
 
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/7.Todo.png)
@@ -103,9 +103,9 @@ permalink: /posts/altium-designer
 
   * Wiederholte Schaltpläne oder Layouts in Unterschiedliche Projekten könnte in einem Bibliothek gespeichert werden.
   * Bereits haben wir ein Bibliothek für Snippets:
-	  * System --> Snippets --> Snippets Folders --> R:\libraries\CS-Lib\Snippets Library
+	  * System &rarr; Snippets &rarr; Snippets Folders &rarr; R:\libraries\CS-Lib\Snippets Library
   * Die Schaltplanteile können einfach in Snippets Bibliothek hinzugefügt werden.
-	  * Selektrieren  Rechtemaustaste  Snippets  Create Snippet from selcted objects
+	  * Selektrieren &rarr; Rechtemaustaste &rarr; Snippets &rarr; Create Snippet from selcted objects
 
 ## Netzclass Definieren
 
@@ -133,10 +133,11 @@ permalink: /posts/altium-designer
 ## Footprint Manager
 
   * Das Gleiche Bauteil kann unterschiedliche Footprint haben. Die Anpassung oder Kontrolle werden über Footprint Manager geschafft.
-	  * Tools  footprint Manager
+	  * Tools &rarr; footprint Manager
   * Linke Fenster: Bauteile Wählen
-    * Rechte Fenster: aktuelle Footprint abhaken. 
-	  * Rechte Maustaste  Set as Current
+  * Rechte Fenster: aktuelle Footprint abhaken.
+  * Rechte Maustaste &rarr; Set as Current
+
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/11.FootprintManager.png)
 
@@ -149,12 +150,13 @@ permalink: /posts/altium-designer
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate.png)
 
   * Reset Dupplicate Schematic Designator: Löscht doppel Bauteil Designatornummer.
+  
   ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate2.png)
 
 ## Cross Probe
 
   * Wenn in der PCB Datei Bauteile gesucht werden, wird diese Funktion verwendet. 
-  * Tools Cross Probe  wird gesuchte Bauteil selektiert, erscheint in der PCB Datei.
+  * Tools&rarr; Cross Probe &rarr; wird gesuchte Bauteil selektiert, erscheint in der PCB Datei.
   * Auch von der PCB Datei wird Bauteile im Schaltplan gesucht.
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/14.CrossProbe.png)
@@ -162,7 +164,7 @@ permalink: /posts/altium-designer
 
 ## Connection Matrix
 
-  * Erreichbar unter Project  Project options
+  * Erreichbar unter Project &rarr; Project options
   * Einstellung von Sheet Entry, Port und Pin Verbindungen
     * z.B: wenn Input Port mit Input Pin verbindet. Nets with no driving source
   * Default wurde VCC und GND Power, alle andere Pins als Passive dargestellt.
