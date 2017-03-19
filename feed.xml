@@ -6,8 +6,8 @@
 </description>
     <link>https://hakandilek.github.io/layout-pcb.de/</link>
     <atom:link href="https://hakandilek.github.io/layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Mar 2017 21:12:51 +0000</pubDate>
-    <lastBuildDate>Sun, 19 Mar 2017 21:12:51 +0000</lastBuildDate>
+    <pubDate>Sun, 19 Mar 2017 21:25:32 +0000</pubDate>
+    <lastBuildDate>Sun, 19 Mar 2017 21:25:32 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -21,7 +21,7 @@
 &lt;h2 id=&quot;templates&quot;&gt;Templates&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Die Templates werden über Preferences  System  New Document Defaults eingestellt.&lt;/li&gt;
+  &lt;li&gt;Die Templates werden über Preferences → System → New Document Defaults eingestellt.&lt;/li&gt;
   &lt;li&gt;PCB Project und Free Documents sollen verlinkt werden.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -30,7 +30,7 @@
 &lt;h2 id=&quot;libraries&quot;&gt;Libraries&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Die Libraries werden Preferences  Data Management  Installed Libraries gewählt.&lt;/li&gt;
+  &lt;li&gt;Die Libraries werden Preferences → Data Management → Installed Libraries gewählt.&lt;/li&gt;
   &lt;li&gt;Durch viele lokale Libraries und Libraries am Server arbeitet Altium Langsamer. Daher können sie deaktiviert werden, wenn man sie gerade nicht braucht oder es wird empfohlen SVN zu nutzen und die Kopie lokal abzuspeichern.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -42,11 +42,11 @@
   &lt;li&gt;In einem Schematic Template können die Texte Automatisch, Local oder Global geändert werden.
     &lt;ul&gt;
       &lt;li&gt;&lt;strong&gt;Automatischen Wert:&lt;/strong&gt; z.B. DrawnDate 
- wenn man die Seite speichert, bekommt das aktuelle Datum automatisch.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Local Werte:&lt;/strong&gt; Z.B DrawnName, Checked –Date  und –Name, Module
- Rechte Maus Taste  Options  Document Parameters.&lt;/li&gt;
+→ wenn man die Seite speichert, bekommt das aktuelle Datum automatisch.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Local Werte:&lt;/strong&gt; z.B DrawnName, Checked–Date  und –Name, Module
+→ Rechte Maus Taste → Options → Document Parameters.&lt;/li&gt;
       &lt;li&gt;&lt;strong&gt;Global Werte:&lt;/strong&gt; z.B. Project, Component und DrawingNumber
- Project Options  Parameters&lt;/li&gt;
+→ Project Options → Parameters&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -56,7 +56,7 @@
 &lt;ul&gt;
   &lt;li&gt;Wenn man die Parameters in mehreren Seiten auf Einmal ändern will
     &lt;ul&gt;
-      &lt;li&gt; Tools  Parameter Manager&lt;/li&gt;
+      &lt;li&gt;→ Tools → Parameter Manager&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -66,7 +66,7 @@
 &lt;ul&gt;
   &lt;li&gt;Wenn die Parameters geändert wird, wird danach bestätigt.
     &lt;ul&gt;
-      &lt;li&gt;Accept Changes (Create ECO)  Execute Changes  Close&lt;/li&gt;
+      &lt;li&gt;Accept Changes (Create ECO) → Execute Changes → Close&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -115,7 +115,7 @@
   &lt;li&gt;Wird in Projektdatei gespeichert.&lt;/li&gt;
   &lt;li&gt;Keine extra Datei.
     &lt;ul&gt;
-      &lt;li&gt; Recte Maus Taste in To-Do     Add Project To-Do Item&lt;/li&gt;
+      &lt;li&gt;→ Recte Maus Taste in To-Do    → Add Project To-Do Item&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -145,12 +145,12 @@
   &lt;li&gt;Wiederholte Schaltpläne oder Layouts in Unterschiedliche Projekten könnte in einem Bibliothek gespeichert werden.&lt;/li&gt;
   &lt;li&gt;Bereits haben wir ein Bibliothek für Snippets:
     &lt;ul&gt;
-      &lt;li&gt;System –&amp;gt; Snippets –&amp;gt; Snippets Folders –&amp;gt; R:\libraries\CS-Lib\Snippets Library&lt;/li&gt;
+      &lt;li&gt;System → Snippets → Snippets Folders → R:\libraries\CS-Lib\Snippets Library&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Die Schaltplanteile können einfach in Snippets Bibliothek hinzugefügt werden.
     &lt;ul&gt;
-      &lt;li&gt;Selektrieren  Rechtemaustaste  Snippets  Create Snippet from selcted objects&lt;/li&gt;
+      &lt;li&gt;Selektrieren → Rechtemaustaste → Snippets → Create Snippet from selcted objects&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -194,18 +194,12 @@
 &lt;ul&gt;
   &lt;li&gt;Das Gleiche Bauteil kann unterschiedliche Footprint haben. Die Anpassung oder Kontrolle werden über Footprint Manager geschafft.
     &lt;ul&gt;
-      &lt;li&gt;Tools  footprint Manager&lt;/li&gt;
+      &lt;li&gt;Tools → footprint Manager&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Linke Fenster: Bauteile Wählen
-    &lt;ul&gt;
-      &lt;li&gt;Rechte Fenster: aktuelle Footprint abhaken.
-        &lt;ul&gt;
-          &lt;li&gt;Rechte Maustaste  Set as Current&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Linke Fenster: Bauteile Wählen&lt;/li&gt;
+  &lt;li&gt;Rechte Fenster: aktuelle Footprint abhaken.&lt;/li&gt;
+  &lt;li&gt;Rechte Maustaste → Set as Current&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/11.FootprintManager.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
@@ -221,15 +215,16 @@
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Reset Dupplicate Schematic Designator: Löscht doppel Bauteil Designatornummer.
-  &lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate2.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Reset Dupplicate Schematic Designator: Löscht doppel Bauteil Designatornummer.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;cross-probe&quot;&gt;Cross Probe&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Wenn in der PCB Datei Bauteile gesucht werden, wird diese Funktion verwendet.&lt;/li&gt;
-  &lt;li&gt;Tools Cross Probe  wird gesuchte Bauteil selektiert, erscheint in der PCB Datei.&lt;/li&gt;
+  &lt;li&gt;Tools→ Cross Probe → wird gesuchte Bauteil selektiert, erscheint in der PCB Datei.&lt;/li&gt;
   &lt;li&gt;Auch von der PCB Datei wird Bauteile im Schaltplan gesucht.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -239,7 +234,7 @@
 &lt;h2 id=&quot;connection-matrix&quot;&gt;Connection Matrix&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Erreichbar unter Project  Project options&lt;/li&gt;
+  &lt;li&gt;Erreichbar unter Project → Project options&lt;/li&gt;
   &lt;li&gt;Einstellung von Sheet Entry, Port und Pin Verbindungen
     &lt;ul&gt;
       &lt;li&gt;z.B: wenn Input Port mit Input Pin verbindet. Nets with no driving source&lt;/li&gt;
