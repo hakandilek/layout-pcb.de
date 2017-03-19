@@ -49,9 +49,31 @@ permalink: /posts/altium-designer
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/3.SchematicTemplate3.png)
 
- ## Workspace Panels
+## Workspace Panels
 
   * Unten auf der Rechteseite des Editors.
   * Die Menus unter diese Panels, könnte beliebig ein- und aus- geblendet werden.
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/4.WorkspacePanels.png)
+
+
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/5.WorkspacePanels-Libraries.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/5.WorkspacePanels-Libraries2.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/6.JockerSuche.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/7.Todo.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/7.Todo2.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/8.SupplierSearch.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass2.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass3.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/10.Text.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/10.Text2.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/11.FootprintManager.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate2.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/13.Update.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/14.CrossProbe.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/14.CrossProbe2.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/15.ConnectionMatrix.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/16.Harness.png)
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/16.Harness2.png)
