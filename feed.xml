@@ -6,8 +6,8 @@
 </description>
     <link>https://hakandilek.github.io/layout-pcb.de/</link>
     <atom:link href="https://hakandilek.github.io/layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Mar 2017 20:53:51 +0000</pubDate>
-    <lastBuildDate>Sun, 19 Mar 2017 20:53:51 +0000</lastBuildDate>
+    <pubDate>Sun, 19 Mar 2017 21:12:51 +0000</pubDate>
+    <lastBuildDate>Sun, 19 Mar 2017 21:12:51 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -82,26 +82,203 @@
 
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/4.WorkspacePanels.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/5.WorkspacePanels-Libraries.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/5.WorkspacePanels-Libraries2.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/6.JockerSuche.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/7.Todo.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/7.Todo2.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/8.SupplierSearch.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass2.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass3.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/10.Text.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/10.Text2.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/11.FootprintManager.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate2.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/13.Update.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/14.CrossProbe.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/14.CrossProbe2.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/15.ConnectionMatrix.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/16.Harness.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/16.Harness2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;workspace-panels--libraries&quot;&gt;Workspace Panels- Libraries&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Die Installierte Libraries werden hier auftauchen. Man kann direkt hier weitere Libraries hinzufügen oder deaktivieren.&lt;/li&gt;
+  &lt;li&gt;Die angelegte Bauteile in der Libraries könnte hier gefunden werden.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/5.WorkspacePanels-Libraries.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Librarycolumns werden beliebig gewählt.&lt;/li&gt;
+  &lt;li&gt;Alle Parameters in Bauteile können als Column dargestellt werden.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/5.WorkspacePanels-Libraries2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;joker-suche-in-libraries&quot;&gt;Joker Suche in Libraries&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Die Bauteilliste kann für jede Column nach der Reihe sortiert und gesucht werden.&lt;/li&gt;
+  &lt;li&gt;Wenn man etwas in den Suchbalken ohne „Stern“ schreibt, sucht das Programm nur die Wörter, die am Satzanfang stehen.&lt;/li&gt;
+  &lt;li&gt;Setzt man einen Stern (*) vor das gesuchte Wort, so findet er alle Wörter, die in der Library stehen.&lt;/li&gt;
+  &lt;li&gt;Wenn man mehrere Wörter gleichzeitig sucht, setzt man für jedes gesuchte Wort einen Stern davor (&lt;em&gt;Wort1&lt;/em&gt;, &lt;em&gt;Wort2&lt;/em&gt;) so findet er alle Wörter, die in der Library stehen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/6.JockerSuche.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;workspace-panels---to-do&quot;&gt;Workspace Panels - To-Do&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wird in Projektdatei gespeichert.&lt;/li&gt;
+  &lt;li&gt;Keine extra Datei.
+    &lt;ul&gt;
+      &lt;li&gt; Recte Maus Taste in To-Do     Add Project To-Do Item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/7.Todo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Man kann die Arbeit zuweisen und Kategorie wählen.&lt;/li&gt;
+  &lt;li&gt;Wenn die Arbeit erledigt wird, kann man es abhaken.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/7.Todo2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;workspace-panels---supplier-search&quot;&gt;Workspace Panels - Supplier Search&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Altium sucht Bauteile nur bei Mouser, Digi-Key, Farnell und TME. (Europäische Lieferanten)&lt;/li&gt;
+  &lt;li&gt;Newark, ODBC, Arrow und Allied sind auch vorhanden. (nicht Europäische Lieferanten )&lt;/li&gt;
+  &lt;li&gt;Die Suche nach folgende Parameter sortiert werden.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/8.SupplierSearch.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;workspace-panels---snippets&quot;&gt;Workspace Panels - Snippets&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wiederholte Schaltpläne oder Layouts in Unterschiedliche Projekten könnte in einem Bibliothek gespeichert werden.&lt;/li&gt;
+  &lt;li&gt;Bereits haben wir ein Bibliothek für Snippets:
+    &lt;ul&gt;
+      &lt;li&gt;System –&amp;gt; Snippets –&amp;gt; Snippets Folders –&amp;gt; R:\libraries\CS-Lib\Snippets Library&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Die Schaltplanteile können einfach in Snippets Bibliothek hinzugefügt werden.
+    &lt;ul&gt;
+      &lt;li&gt;Selektrieren  Rechtemaustaste  Snippets  Create Snippet from selcted objects&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;netzclass-definieren&quot;&gt;Netzclass Definieren&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Die besondere Leitungen oder Pfade könnte man mit Netzclassen spezifiziert.
+    &lt;ul&gt;
+      &lt;li&gt;Z.B: man kann Luft und Kriechstrecken, Ströme, HV… definieren.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Die Netzclassen könnte unterschiedliche Eigenschaften haben.&lt;/li&gt;
+  &lt;li&gt;Unterschiedliche Netzclassen könnte gleiche Eigenschaften haben.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass2.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;text&quot;&gt;text&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;die Taste Einfugen auf einem Text&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/10.Text.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;STRG + Signal klicken&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/10.Text2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;footprint-manager&quot;&gt;Footprint Manager&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Das Gleiche Bauteil kann unterschiedliche Footprint haben. Die Anpassung oder Kontrolle werden über Footprint Manager geschafft.
+    &lt;ul&gt;
+      &lt;li&gt;Tools  footprint Manager&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Linke Fenster: Bauteile Wählen
+    &lt;ul&gt;
+      &lt;li&gt;Rechte Fenster: aktuelle Footprint abhaken.
+        &lt;ul&gt;
+          &lt;li&gt;Rechte Maustaste  Set as Current&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/11.FootprintManager.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;annotate&quot;&gt;Annotate&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wenn es einmal eingestellt wird, kann Annotate Quickly Funktion verwendet werden.&lt;/li&gt;
+  &lt;li&gt;Start Index: soll immer von 100 starten.&lt;/li&gt;
+  &lt;li&gt;Suffix: zusätzlich Designator- Kennzeichen am Hinten.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reset Dupplicate Schematic Designator: Löscht doppel Bauteil Designatornummer.
+  &lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate2.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cross-probe&quot;&gt;Cross Probe&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wenn in der PCB Datei Bauteile gesucht werden, wird diese Funktion verwendet.&lt;/li&gt;
+  &lt;li&gt;Tools Cross Probe  wird gesuchte Bauteil selektiert, erscheint in der PCB Datei.&lt;/li&gt;
+  &lt;li&gt;Auch von der PCB Datei wird Bauteile im Schaltplan gesucht.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/14.CrossProbe.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/14.CrossProbe2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;connection-matrix&quot;&gt;Connection Matrix&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Erreichbar unter Project  Project options&lt;/li&gt;
+  &lt;li&gt;Einstellung von Sheet Entry, Port und Pin Verbindungen
+    &lt;ul&gt;
+      &lt;li&gt;z.B: wenn Input Port mit Input Pin verbindet. Nets with no driving source&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Default wurde VCC und GND Power, alle andere Pins als Passive dargestellt.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/15.ConnectionMatrix.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;harness&quot;&gt;Harness&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unterschiedliche oder Gleiche Namen&lt;/li&gt;
+  &lt;li&gt;Extra Page Connector&lt;/li&gt;
+  &lt;li&gt;Bus: Wenn Signal sich wiederholt
+    &lt;ul&gt;
+      &lt;li&gt;Harness Connector: beinhaltet Bus und Harness connectoren.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/16.Harness.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Harness kann kaskadiert werden.&lt;/li&gt;
+  &lt;li&gt;ein Harness-Connector mehr Mals mit unterschiedlichen Ports verwendet werden&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/16.Harness2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;empfehlungen&quot;&gt;Empfehlungen&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Schematics Grid soll mindestens auf 5 stehen. Kleiner als 5 ist Gefahr dass die Pins nicht richtig angeschlossen werden. Taste G = Grid Wechseln.&lt;/li&gt;
+  &lt;li&gt;Man soll die Bauteilwerte nie im Schematik ändern. Wenn sie geändert werden muss, werden sie nur über Bibliotheken geändert und vom Schaltplan aktualisiert&lt;/li&gt;
+  &lt;li&gt;4 Knoten Punkt soll man nicht verwenden. Wenn muss, dann mit Manuel Junction verwenden.&lt;/li&gt;
+  &lt;li&gt;Man kann jeden Parameter vom Bauteil im Schaltplan ein- und aus- blenden.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Mon, 06 Mar 2017 08:00:00 +0000</pubDate>
         <link>https://hakandilek.github.io/layout-pcb.de/posts/altium-designer</link>
