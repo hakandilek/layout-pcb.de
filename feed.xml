@@ -6,8 +6,8 @@
 </description>
     <link>https://hakandilek.github.io/layout-pcb.de/</link>
     <atom:link href="https://hakandilek.github.io/layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Mar 2017 11:00:56 +0000</pubDate>
-    <lastBuildDate>Sun, 19 Mar 2017 11:00:56 +0000</lastBuildDate>
+    <pubDate>Sun, 19 Mar 2017 20:53:51 +0000</pubDate>
+    <lastBuildDate>Sun, 19 Mar 2017 20:53:51 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -73,7 +73,7 @@
 
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/3.SchematicTemplate3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;## Workspace Panels&lt;/p&gt;
+&lt;h2 id=&quot;workspace-panels&quot;&gt;Workspace Panels&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Unten auf der Rechteseite des Editors.&lt;/li&gt;
@@ -81,6 +81,27 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/4.WorkspacePanels.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/5.WorkspacePanels-Libraries.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/5.WorkspacePanels-Libraries2.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/6.JockerSuche.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/7.Todo.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/7.Todo2.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/8.SupplierSearch.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass2.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/9.Netzclass3.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/10.Text.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/10.Text2.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/11.FootprintManager.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/12.Annotate2.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/13.Update.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/14.CrossProbe.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/14.CrossProbe2.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/15.ConnectionMatrix.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/16.Harness.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/16.Harness2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Mar 2017 08:00:00 +0000</pubDate>
         <link>https://hakandilek.github.io/layout-pcb.de/posts/altium-designer</link>
