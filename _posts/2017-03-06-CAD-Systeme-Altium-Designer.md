@@ -7,6 +7,7 @@ permalink: /posts/altium-designer
 ---
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/0.AltiumDesigner.png)
+
 # CAD Systeme - Altium Designer
 *Einführung und Designtips*
 
@@ -56,7 +57,7 @@ permalink: /posts/altium-designer
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/4.WorkspacePanels.png)
 
-## Workspace Panels- Libraries
+### Libraries
 
   * Die Installierte Libraries werden hier auftauchen. Man kann direkt hier weitere Libraries hinzufügen oder deaktivieren. 
   * Die angelegte Bauteile in der Libraries könnte hier gefunden werden.
@@ -68,7 +69,7 @@ permalink: /posts/altium-designer
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/5.WorkspacePanels-Libraries2.png)
 
-## Joker Suche in Libraries
+### Joker Suche in Libraries
 
   * Die Bauteilliste kann für jede Column nach der Reihe sortiert und gesucht werden.
   * Wenn man etwas in den Suchbalken ohne „Stern“ schreibt, sucht das Programm nur die Wörter, die am Satzanfang stehen.
@@ -77,7 +78,7 @@ permalink: /posts/altium-designer
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/6.JockerSuche.png)
 
-## Workspace Panels - To-Do
+### To-Do
 
   * Wird in Projektdatei gespeichert.
   * Keine extra Datei.
@@ -91,7 +92,7 @@ permalink: /posts/altium-designer
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/7.Todo2.png)
 
-## Workspace Panels - Supplier Search
+### Supplier Search
 
   * Altium sucht Bauteile nur bei Mouser, Digi-Key, Farnell und TME. (Europäische Lieferanten)
   * Newark, ODBC, Arrow und Allied sind auch vorhanden. (nicht Europäische Lieferanten )
@@ -99,7 +100,7 @@ permalink: /posts/altium-designer
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/8.SupplierSearch.png)
 
-## Workspace Panels - Snippets
+### Snippets
 
   * Wiederholte Schaltpläne oder Layouts in Unterschiedliche Projekten könnte in einem Bibliothek gespeichert werden.
   * Bereits haben wir ein Bibliothek für Snippets:
