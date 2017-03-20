@@ -6,13 +6,14 @@
 </description>
     <link>https://hakandilek.github.io/layout-pcb.de/</link>
     <atom:link href="https://hakandilek.github.io/layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Mar 2017 21:25:32 +0000</pubDate>
-    <lastBuildDate>Sun, 19 Mar 2017 21:25:32 +0000</lastBuildDate>
+    <pubDate>Mon, 20 Mar 2017 10:30:00 +0000</pubDate>
+    <lastBuildDate>Mon, 20 Mar 2017 10:30:00 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
         <title>CAD Systeme - Altium Designer</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/0.AltiumDesigner.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
 &lt;h1 id=&quot;cad-systeme---altium-designer&quot;&gt;CAD Systeme - Altium Designer&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Einführung und Designtips&lt;/em&gt;&lt;/p&gt;
 
@@ -82,7 +83,7 @@
 
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/4.WorkspacePanels.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;workspace-panels--libraries&quot;&gt;Workspace Panels- Libraries&lt;/h2&gt;
+&lt;h3 id=&quot;libraries-1&quot;&gt;Libraries&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Die Installierte Libraries werden hier auftauchen. Man kann direkt hier weitere Libraries hinzufügen oder deaktivieren.&lt;/li&gt;
@@ -98,7 +99,7 @@
 
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/5.WorkspacePanels-Libraries2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;joker-suche-in-libraries&quot;&gt;Joker Suche in Libraries&lt;/h2&gt;
+&lt;h3 id=&quot;joker-suche-in-libraries&quot;&gt;Joker Suche in Libraries&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Die Bauteilliste kann für jede Column nach der Reihe sortiert und gesucht werden.&lt;/li&gt;
@@ -109,7 +110,7 @@
 
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/6.JockerSuche.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;workspace-panels---to-do&quot;&gt;Workspace Panels - To-Do&lt;/h2&gt;
+&lt;h3 id=&quot;to-do&quot;&gt;To-Do&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Wird in Projektdatei gespeichert.&lt;/li&gt;
@@ -129,7 +130,7 @@
 
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/7.Todo2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;workspace-panels---supplier-search&quot;&gt;Workspace Panels - Supplier Search&lt;/h2&gt;
+&lt;h3 id=&quot;supplier-search&quot;&gt;Supplier Search&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Altium sucht Bauteile nur bei Mouser, Digi-Key, Farnell und TME. (Europäische Lieferanten)&lt;/li&gt;
@@ -139,7 +140,7 @@
 
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/8.SupplierSearch.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;workspace-panels---snippets&quot;&gt;Workspace Panels - Snippets&lt;/h2&gt;
+&lt;h3 id=&quot;snippets&quot;&gt;Snippets&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Wiederholte Schaltpläne oder Layouts in Unterschiedliche Projekten könnte in einem Bibliothek gespeichert werden.&lt;/li&gt;
