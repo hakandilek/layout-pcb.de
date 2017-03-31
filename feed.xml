@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PCB-Layout</title>
-    <description>Freelance PCB-Layout 
+    <description>Tipps über PCB-Layout in Altium
 </description>
     <link>https://hakandilek.github.io/layout-pcb.de/</link>
     <atom:link href="https://hakandilek.github.io/layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 Mar 2017 19:18:14 +0000</pubDate>
-    <lastBuildDate>Fri, 31 Mar 2017 19:18:14 +0000</lastBuildDate>
+    <pubDate>Fri, 31 Mar 2017 19:23:35 +0000</pubDate>
+    <lastBuildDate>Fri, 31 Mar 2017 19:23:35 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
