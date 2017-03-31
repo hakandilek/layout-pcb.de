@@ -4,13 +4,13 @@ url: "https://hakandilek.github.io"    # the protocol and hostname of your site,
 baseurl: "/layout-pcb.de" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: >
-  Freelance PCB-Layout 
+  Tipps über PCB-Layout in Altium
 
 # Your information
 email: info@layout-pcb.de
 author: PCB-Layout
 avatar: "https://hakandilek.github.io/layout-pcb.de/static/img/logo.png"
-profile: Freelance PCB-Layout 
+profile: Tipps über PCB-Layout in Altium 
 twitter_username: Layout_erlangen
 #github_username:  github_username
 
