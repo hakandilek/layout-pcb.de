@@ -2,7 +2,7 @@
 layout: post
 title:  "CAD Systeme - Altium Designer"
 date:   2017-03-06 08:00
-categories: altium-designer CAD-systeme
+categories: Altium-designer
 permalink: /posts/altium-designer
 ---
 
@@ -103,8 +103,6 @@ permalink: /posts/altium-designer
 ### Snippets
 
   * Wiederholte Schaltpläne oder Layouts in Unterschiedliche Projekten könnte in einem Bibliothek gespeichert werden.
-  * Bereits haben wir ein Bibliothek für Snippets:
-	  * System &rarr; Snippets &rarr; Snippets Folders &rarr; R:\libraries\CS-Lib\Snippets Library
   * Die Schaltplanteile können einfach in Snippets Bibliothek hinzugefügt werden.
 	  * Selektrieren &rarr; Rechtemaustaste &rarr; Snippets &rarr; Create Snippet from selcted objects
 
