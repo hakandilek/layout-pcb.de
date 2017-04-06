@@ -5,7 +5,7 @@ permalink: /about/
 public: true
 ---
 
-Ich arbeite seit 10 Jahren als Hardware Entwickler und Layouter in der Medizintechnik. Dadurch habe ich mir ein sehr gutes Know-How angeeignet.Ich habe Analoge Signale im Bereich von 0,01 bis 3000V Hochspannungen in einer Platine geroutet. Hier ist eine kleine Auflistung von den von mir gerouteten Platinen:
+Ich arbeite seit 10 Jahren als Hardware Entwickler und Layouter in der Medizintechnik. Dadurch habe ich mir ein sehr gutes Know-How angeeignet.Ich habe Analoge Signale im Bereich von 0,1µV bis 3000V Hochspannungen in einer Platine geroutet. Hier ist eine kleine Auflistung von den von mir gerouteten Platinen:
 
   * 367mm x 130mm Hochspannungsgenerator, LTE Modul, WiFI, 6Lagen
   * 17mm x 30mm Sensor Platine, 8Lagen HDI (2-4b-2), 0,5mm Pitch BGA
