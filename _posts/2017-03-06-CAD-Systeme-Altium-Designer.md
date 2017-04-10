@@ -14,17 +14,6 @@ permalink: /posts/altium-designer
 *Msc. Dipl. -Ing. Kemal Tokay*
 
 
-# Leitungslänge Anpassung
-*Länge Anpassung auf der Platine*
-![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/0.Laenge_uebersicht.png)
-* Wie schnell bewegt sich das Signal auf der Platine?
-* Was ist die Kritische Leitungslänge?
-* Wann ist die Leitungslänge Anpassung nötig?
-* Was für Nachteile hat die Leitungslänge Anpassung?
-* Wie realisieren wir es bei Altium?
-
-
-
 ## Templates
 
  * Die Templates werden über Preferences &rarr; System &rarr; New Document Defaults eingestellt.
