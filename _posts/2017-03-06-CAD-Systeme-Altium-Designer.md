@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CAD Systeme - Altium Designer"
+title:  "Altium Designer Design Tipps"
 date:   2017-03-06 08:00
 categories: Altium-designer
 permalink: /posts/altium-designer
@@ -8,7 +8,7 @@ permalink: /posts/altium-designer
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/0.AltiumDesigner.png)
 
-# CAD Systeme - Altium Designer
+# CAD Systeme - Altium Designer Design Tipps
 *Einführung und Designtips*
 
 *Msc. Dipl. -Ing. Kemal Tokay*
