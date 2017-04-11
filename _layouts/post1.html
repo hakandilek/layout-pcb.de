@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="post1">
+
+  <header class="post1-header">
+    <h1 class="post1-title">{{ page.title }}</h1>
+    <p class="post1-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post1-content">
+    {{ content }}
+  </article>
+  
+  {% include comment.html %}
+
+</div>
