@@ -11,7 +11,10 @@ permalink: /posts/Leitungslaenge
 # Leitungslänge Anpassung 
 *Länge Anpassung auf der Platine* 
 
+
+
 ## Übersicht
+
 * Wie schnell bewegt sich das Signal auf der Platine? 
 * Was ist die Kritische Leitungslänge? 
 * Wann ist die Leitungslänge Anpassung nötig? 
@@ -19,6 +22,7 @@ permalink: /posts/Leitungslaenge
 * Wie realisieren wir es bei Altium? 
 
 ## Ausbreitungsgeschwindigkeit
+
 * Sehr hohe aber begrenzte Geschwindigkeit.
 * In Luft breiten sich Signale mit Lichtgeschwindigkeit aus. Auf der Platine sind sie langsamer.  
   (LP-Meterial) = 2.8..4,3
@@ -29,6 +33,7 @@ permalink: /posts/Leitungslaenge
 
 
 ## Kritische Leitungslänge
+
 * Resonanzeffekte: auf Leitungen und Potentiallagen ⇒ Störabstrahlung  
 * Impuls-Reflexionen: an Leitungsenden/ Durchkontaktierung ⇒ Fehltriggerungen
   Die beiden HF-Effekte werden ab einer kritischen Länge der Leiterbahnen wirksam.
@@ -42,6 +47,7 @@ permalink: /posts/Leitungslaenge
  Merkmale: Bei einer Leitungslaenge von bis zu 20cm treten keine nennenswerten Reflexionen auf und eine Terminierung ist nicht Nötig.
 
 ## Leitungslänge Anpassung
+
 * Ausbreitungsgeschwindigkeit ist für Leiterplattenmaterial mit einem Er ist 15cm/ns. Die Signalverzögerung   0,07ns/cm
 
 * Für synchrones Schalten müssen alle Leitungen im Idealfall die selbe Gesamtlänge zwischen Treiber und den Empfänger haben.
