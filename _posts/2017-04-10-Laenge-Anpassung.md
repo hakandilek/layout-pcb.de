@@ -1,5 +1,5 @@
 ---
-layout: post1
+layout: post
 title:  "Leitungslänge Anpassung"
 date:   2017-04-11 08:00
 categories: Altium-designer
@@ -69,6 +69,8 @@ Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man keine Leit
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/4.YForm.png)
 
 * Design --> xSignals --> Run xSignals Wizard
+
+
 to be defined.....
 
 
