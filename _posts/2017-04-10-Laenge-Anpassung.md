@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post1
 title:  "Leitungslänge Anpassung"
 date:   2017-04-11 08:00
 categories: Altium-designer
