@@ -6,13 +6,12 @@ categories: Altium-designer
 permalink: /posts/Leitungslaenge
 ---
 
-
-
-
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/0.Laenge_uebersicht.png) 
 
 # Leitungslänge Anpassung 
 *Länge Anpassung auf der Platine* 
-![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/0.Laenge_uebersicht.png) 
+
+## Übersicht
 * Wie schnell bewegt sich das Signal auf der Platine? 
 * Was ist die Kritische Leitungslänge? 
 * Wann ist die Leitungslänge Anpassung nötig? 
