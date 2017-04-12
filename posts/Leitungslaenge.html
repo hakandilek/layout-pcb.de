@@ -64,6 +64,80 @@
   <li>Wie realisieren wir es bei Altium?</li>
 </ul>
 
+<h2 id="ausbreitungsgeschwindigkeit">Ausbreitungsgeschwindigkeit</h2>
+<ul>
+  <li>Sehr hohe aber begrenzte Geschwindigkeit.</li>
+  <li>
+    <p>In Luft breiten sich Signale mit Lichtgeschwindigkeit aus. Auf der Platine sind sie langsamer.<br />
+(LP-Meterial) = 2.8..4,3
+<img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/1.Er_Lagen.png" alt="" /></p>
+  </li>
+  <li>50..70% der Lichtgeschwindigkeit. 15..21 cm/ns0
+<img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/2.Er_Lagen.png" alt="" /></li>
+</ul>
+
+<h2 id="kritische-leitungslänge">Kritische Leitungslänge</h2>
+<ul>
+  <li>Resonanzeffekte: auf Leitungen und Potentiallagen ⇒ Störabstrahlung</li>
+  <li>
+    <p>Impuls-Reflexionen: an Leitungsenden/ Durchkontaktierung ⇒ Fehltriggerungen
+Die beiden HF-Effekte werden ab einer kritischen Länge der Leiterbahnen wirksam.
+Die kritische Länge deutlich kleiner als die Wellenlänge λ sein. 
+Ikrit = Cp.tr.1/3 –&gt; tr= (risetime oder falltime)
+Ikrit = 15 cm/ns . tr. 1/3 –&gt; Lkrit = 5cm/ns . tr</p>
+
+    <p>z.B: AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
+Lkrit = 5cm/ns . tr –&gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische Länge</p>
+  </li>
+</ul>
+
+<p>Merkmale: Bei einer Leitungslaenge von bis zu 20cm treten keine nennenswerten Reflexionen auf und eine Terminierung ist nicht Nötig.</p>
+
+<h2 id="leitungslänge-anpassung-1">Leitungslänge Anpassung</h2>
+<ul>
+  <li>
+    <p>Ausbreitungsgeschwindigkeit ist für Leiterplattenmaterial mit einem Er ist 15cm/ns. Die Signalverzögerung   0,07ns/cm</p>
+  </li>
+  <li>
+    <p>Für synchrones Schalten müssen alle Leitungen im Idealfall die selbe Gesamtlänge zwischen Treiber und den Empfänger haben.</p>
+  </li>
+  <li>
+    <p>Entsprechend   0,07ns/cm sind bei ns-Impulsen Wegunterschiede im cm-Bereich noch zulässig.</p>
+  </li>
+</ul>
+
+<p>Z.B. AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
+–&gt; Lkrit = 5cm/ns .tr –&gt; Lkirt= 5cm/ns . 4ns = 20cm = 200mm
+Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man keine Leitungs-Länge anpassen.</p>
+
+<ul>
+  <li>Nacteile zur Leitungslänge Anpassen:</li>
+  <li>Weniger GND-Fläche</li>
+  <li>Komplexität der Leiterplatte wird ersteigt.</li>
+  <li>Verschlechterung bei EMV</li>
+  <li>Erhöhte Gefahr bei der Leitungskopplung (übersprechen)</li>
+  <li>Mehr benötigte Platz zur Routing</li>
+</ul>
+
+<h2 id="leitungslänge-anpassung-bei-altium">Leitungslänge Anpassung bei Altium</h2>
+
+<ul>
+  <li>Zwischen Sender und Empfänger meisetn liegen Serien Wiederstände oder Andere Bauteile.</li>
+</ul>
+
+<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/3.xSignal.png" alt="" /></p>
+
+<ul>
+  <li>
+    <p>Meisten verteil sich das Signal Y-Förmig.
+<img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/4.YForm.png" alt="" /></p>
+  </li>
+  <li>
+    <p>Design –&gt; xSignals –&gt; Run xSignals Wizard
+to be defined…..</p>
+  </li>
+</ul>
+
 
   </article>
   

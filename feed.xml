@@ -6,8 +6,8 @@
 </description>
     <link>http://layout-pcb.de/</link>
     <atom:link href="http://layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Apr 2017 13:25:06 +0000</pubDate>
-    <lastBuildDate>Tue, 11 Apr 2017 13:25:06 +0000</lastBuildDate>
+    <pubDate>Wed, 12 Apr 2017 09:19:54 +0000</pubDate>
+    <lastBuildDate>Wed, 12 Apr 2017 09:19:54 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -21,6 +21,80 @@
   &lt;li&gt;Wann ist die Leitungslänge Anpassung nötig?&lt;/li&gt;
   &lt;li&gt;Was für Nachteile hat die Leitungslänge Anpassung?&lt;/li&gt;
   &lt;li&gt;Wie realisieren wir es bei Altium?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ausbreitungsgeschwindigkeit&quot;&gt;Ausbreitungsgeschwindigkeit&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sehr hohe aber begrenzte Geschwindigkeit.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In Luft breiten sich Signale mit Lichtgeschwindigkeit aus. Auf der Platine sind sie langsamer.&lt;br /&gt;
+(LP-Meterial) = 2.8..4,3
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/1.Er_Lagen.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;50..70% der Lichtgeschwindigkeit. 15..21 cm/ns0
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/2.Er_Lagen.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kritische-leitungslänge&quot;&gt;Kritische Leitungslänge&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Resonanzeffekte: auf Leitungen und Potentiallagen ⇒ Störabstrahlung&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Impuls-Reflexionen: an Leitungsenden/ Durchkontaktierung ⇒ Fehltriggerungen
+Die beiden HF-Effekte werden ab einer kritischen Länge der Leiterbahnen wirksam.
+Die kritische Länge deutlich kleiner als die Wellenlänge λ sein. 
+Ikrit = Cp.tr.1/3 –&amp;gt; tr= (risetime oder falltime)
+Ikrit = 15 cm/ns . tr. 1/3 –&amp;gt; Lkrit = 5cm/ns . tr&lt;/p&gt;
+
+    &lt;p&gt;z.B: AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
+Lkrit = 5cm/ns . tr –&amp;gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische Länge&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Merkmale: Bei einer Leitungslaenge von bis zu 20cm treten keine nennenswerten Reflexionen auf und eine Terminierung ist nicht Nötig.&lt;/p&gt;
+
+&lt;h2 id=&quot;leitungslänge-anpassung-1&quot;&gt;Leitungslänge Anpassung&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ausbreitungsgeschwindigkeit ist für Leiterplattenmaterial mit einem Er ist 15cm/ns. Die Signalverzögerung   0,07ns/cm&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Für synchrones Schalten müssen alle Leitungen im Idealfall die selbe Gesamtlänge zwischen Treiber und den Empfänger haben.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Entsprechend   0,07ns/cm sind bei ns-Impulsen Wegunterschiede im cm-Bereich noch zulässig.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Z.B. AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
+–&amp;gt; Lkrit = 5cm/ns .tr –&amp;gt; Lkirt= 5cm/ns . 4ns = 20cm = 200mm
+Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man keine Leitungs-Länge anpassen.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Nacteile zur Leitungslänge Anpassen:&lt;/li&gt;
+  &lt;li&gt;Weniger GND-Fläche&lt;/li&gt;
+  &lt;li&gt;Komplexität der Leiterplatte wird ersteigt.&lt;/li&gt;
+  &lt;li&gt;Verschlechterung bei EMV&lt;/li&gt;
+  &lt;li&gt;Erhöhte Gefahr bei der Leitungskopplung (übersprechen)&lt;/li&gt;
+  &lt;li&gt;Mehr benötigte Platz zur Routing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;leitungslänge-anpassung-bei-altium&quot;&gt;Leitungslänge Anpassung bei Altium&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Zwischen Sender und Empfänger meisetn liegen Serien Wiederstände oder Andere Bauteile.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/3.xSignal.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Meisten verteil sich das Signal Y-Förmig.
+&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/4.YForm.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Design –&amp;gt; xSignals –&amp;gt; Run xSignals Wizard
+to be defined…..&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
