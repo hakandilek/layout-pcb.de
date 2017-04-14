@@ -27,8 +27,8 @@ permalink: /posts/Leitungslaenge
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/1.Er_Lagen.png) 
 
 * Layer1 = Er = 2,8
-Layer2 = Er = 4,2
-Layer3 = Er = 3,8
+  Layer2 = Er = 4,2
+  Layer3 = Er = 3,8
 
 * 50..70% der Lichtgeschwindigkeit. 15..21 cm/ns
 
