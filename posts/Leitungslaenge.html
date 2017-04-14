@@ -73,14 +73,17 @@
   <li>
     <p>In Luft breiten sich Signale mit Lichtgeschwindigkeit aus. Auf der Platine sind sie langsamer.<br />
 (LP-Meterial) = 2.8..4,3
-<img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/1.Er_Lagen.png" alt="" /> 
-**Layer1 = Er = 2,8
-**Layer2 = Er = 4,2
-**Layer3 = Er = 3,8</p>
+<img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/1.Er_Lagen.png" alt="" /></p>
   </li>
-  <li>50..70% der Lichtgeschwindigkeit. 15..21 cm/ns
-<img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/2.Er_Lagen.png" alt="" /></li>
+  <li>Layer1 = Er = 2,8</li>
+  <li>Layer2 = Er = 4,2</li>
+  <li>
+    <p>Layer3 = Er = 3,8</p>
+  </li>
+  <li>50..70% der Lichtgeschwindigkeit. 15..21 cm/ns</li>
 </ul>
+
+<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/2.Er_Lagen.png" alt="" /></p>
 
 <h2 id="kritische-leitungslänge">Kritische Leitungslänge</h2>
 <ul>
@@ -88,9 +91,12 @@
   <li>
     <p>Impuls-Reflexionen: an Leitungsenden/ Durchkontaktierung ⇒ Fehltriggerungen
 Die beiden HF-Effekte werden ab einer kritischen Länge der Leiterbahnen wirksam.
-Die kritische Länge deutlich kleiner als die Wellenlänge λ sein. 
-<em>Ikrit = Cp.tr.1/3 –&gt; tr= (risetime oder falltime)</em>
-<em>Ikrit = 15 cm/ns . tr. 1/3 –&gt; Lkrit = 5cm/ns . tr</em></p>
+Die kritische Länge deutlich kleiner als die Wellenlänge λ sein.</p>
+
+    <ul>
+      <li>Ikrit = Cp.tr.1/3 –&gt; tr= (risetime oder falltime)</li>
+      <li>Ikrit = 15 cm/ns . tr. 1/3 –&gt; Lkrit = 5cm/ns . tr</li>
+    </ul>
 
     <p>z.B: AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
 Lkrit = 5cm/ns . tr –&gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische Länge</p>
@@ -110,11 +116,13 @@ Lkrit = 5cm/ns . tr –&gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische Länge
   <li>
     <p>Entsprechend   0,07ns/cm sind bei ns-Impulsen Wegunterschiede im cm-Bereich noch zulässig.</p>
   </li>
+  <li>
+    <p>Z.B. AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
+ –&gt; Lkrit = 5cm/ns .tr –&gt; Lkirt= 5cm/ns . 4ns = 20cm = 200mm</p>
+  </li>
 </ul>
 
-<p><em>Z.B. AT91SAM9261S hat minimale Anstieg zeit ca. 4ns</em>
-<em>–&gt; Lkrit = 5cm/ns .tr –&gt; Lkirt= 5cm/ns . 4ns = 20cm = 200mm</em>
-<em>Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man keine Leitungs-Länge anpassen.</em></p>
+<p>Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man keine Leitungs-Länge anpassen.</p>
 
 <ul>
   <li>Nacteile zur Leitungslänge Anpassen:</li>
