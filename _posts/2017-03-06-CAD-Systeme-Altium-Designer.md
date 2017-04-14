@@ -11,7 +11,6 @@ permalink: /posts/altium-designer
 # CAD Systeme - Altium Designer Design Tipps
 *Einführung und Designtips*
 
-*Msc. Dipl. -Ing. Kemal Tokay*
 
 
 ## Templates
