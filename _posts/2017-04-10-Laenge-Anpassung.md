@@ -59,7 +59,7 @@ permalink: /posts/Leitungslaenge
 * Z.B. AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
  --> Lkrit = 5cm/ns .tr --> Lkirt= 5cm/ns . 4ns = 20cm = 200mm
  
- Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man keine Leitungs-Länge anpassen.
+ Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man nichts anpassen.
 
 * Nacteile zur Leitungslänge Anpassen:
 - Weniger GND-Fläche
@@ -75,12 +75,76 @@ permalink: /posts/Leitungslaenge
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/3.xSignal.png) 
 
 * Meisten verteil sich das Signal Y-Förmig.
+
+
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/4.YForm.png)
+
+
+z.B. Die Leitungen zwischen Mikrokontroller und DDR Rams
 
 * Design --> xSignals --> Run xSignals Wizard
 
+Select the source component (Signal Quelle = Mikrokontroller)
 
-to be defined.....
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/5.DDR_Signal.png)
+
+Alle Signale zum diesen Familie werden gewählt.
+
+Select Destination Components (Signal Ziel = DDR-Rams)
+
+Danach berechnet Altim automatisch die Signale zwischen Mikrokontroller und DDR Bausteine in einer Tabelle. 
+
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/6.xSignal_routes.png)
+
+so definiert man die Leitungsgruppe im PCB mit Altium. Dann kann man die Länge unter einer Gruppe anpassen.
+
+### Wichtige Parameters beim High Speed Signalen
+* Hier sind 5 Goldene Regeln gültig*
+
+
+1. Single Ended oder Differential pair Impedance
+
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/7.Anpaasung_Altium.png)
+
+2. Leitungslänge Anpassung zwischen Differential Signalen
+
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/8.Diff_Signal_Anpassung.png)
+
+* Die Space soll direkt am Anfang seien.
+* Wenn mehr als 2 Space Nötig ist, soll man ein einziges Gröseres Space direkt am Anfang vorsehen.
+
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/9.Diff_Signal_3Space.png)
+
+* Schlechtes Beispiel
+
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/10.Diff_Sig_Bad.png)
+
+* Gutes Beispiel
+
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/11.Diff_Sig_good.png)
+
+* Design Rule für Differentiall Signale definieren.
+
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/12.Diff_Sig_Rules.png)
+
+3. Abstände zwischen Leitungen (Crosstalk)
+
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/13.crosstalk.png)
+
+Schlecht: 
+
+Weil das Signal kann überspringen.
+
+Gut: 
+Winkel : 45°; 
+Abstand zwischen Leitungen minimal = 3x Leitung Dicke
+Ideal = 5x Leitung Dicke
+
+![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/14.Ideal_Routing.png)
+
+4. Gleiche Signalgrouppe werden zusammen geführt.
+
+5. Man soll maximal 5Leitungen Parallel durchführen dann soll ein GND Signal mit geführt werden.
 
 
 
