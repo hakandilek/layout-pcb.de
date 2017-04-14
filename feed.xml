@@ -6,8 +6,8 @@
 </description>
     <link>http://layout-pcb.de/</link>
     <atom:link href="http://layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Apr 2017 11:40:17 +0000</pubDate>
-    <lastBuildDate>Fri, 14 Apr 2017 11:40:17 +0000</lastBuildDate>
+    <pubDate>Fri, 14 Apr 2017 11:46:42 +0000</pubDate>
+    <lastBuildDate>Fri, 14 Apr 2017 11:46:42 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -33,11 +33,11 @@
     &lt;p&gt;In Luft breiten sich Signale mit Lichtgeschwindigkeit aus. Auf der Platine sind sie langsamer.&lt;br /&gt;
 (LP-Meterial) = 2.8..4,3
 &lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/1.Er_Lagen.png&quot; alt=&quot;&quot; /&gt; 
-Layer1 = Er = 2,8
-Layer2 = Er = 4,2
-Layer3 = Er = 3,8&lt;/p&gt;
+&lt;em&gt;Layer1 = Er = 2,8&lt;/em&gt;
+&lt;em&gt;Layer2 = Er = 4,2&lt;/em&gt;
+&lt;em&gt;Layer3 = Er = 3,8&lt;/em&gt;&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;50..70% der Lichtgeschwindigkeit. 15..21 cm/ns0
+  &lt;li&gt;50..70% der Lichtgeschwindigkeit. 15..21 cm/ns
 &lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/2.Er_Lagen.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -48,8 +48,8 @@ Layer3 = Er = 3,8&lt;/p&gt;
     &lt;p&gt;Impuls-Reflexionen: an Leitungsenden/ Durchkontaktierung ⇒ Fehltriggerungen
 Die beiden HF-Effekte werden ab einer kritischen Länge der Leiterbahnen wirksam.
 Die kritische Länge deutlich kleiner als die Wellenlänge λ sein. 
-Ikrit = Cp.tr.1/3 –&amp;gt; tr= (risetime oder falltime)
-Ikrit = 15 cm/ns . tr. 1/3 –&amp;gt; Lkrit = 5cm/ns . tr&lt;/p&gt;
+&lt;em&gt;Ikrit = Cp.tr.1/3 –&amp;gt; tr= (risetime oder falltime)&lt;/em&gt;
+&lt;em&gt;Ikrit = 15 cm/ns . tr. 1/3 –&amp;gt; Lkrit = 5cm/ns . tr&lt;/em&gt;&lt;/p&gt;
 
     &lt;p&gt;z.B: AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
 Lkrit = 5cm/ns . tr –&amp;gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische Länge&lt;/p&gt;
@@ -71,9 +71,9 @@ Lkrit = 5cm/ns . tr –&amp;gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische L�
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Z.B. AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
-–&amp;gt; Lkrit = 5cm/ns .tr –&amp;gt; Lkirt= 5cm/ns . 4ns = 20cm = 200mm
-Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man keine Leitungs-Länge anpassen.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Z.B. AT91SAM9261S hat minimale Anstieg zeit ca. 4ns&lt;/em&gt;
+&lt;em&gt;–&amp;gt; Lkrit = 5cm/ns .tr –&amp;gt; Lkirt= 5cm/ns . 4ns = 20cm = 200mm&lt;/em&gt;
+&lt;em&gt;Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man keine Leitungs-Länge anpassen.&lt;/em&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Nacteile zur Leitungslänge Anpassen:&lt;/li&gt;
