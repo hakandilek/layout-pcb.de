@@ -18,3 +18,6 @@ Ich arbeite seit 10 Jahren als Hardware Entwickler und Layouter in der Medizinte
 
  Noch zur meiner Arbeit gehören
  Bibliothek einpflegen, Bauteile anlegen, Hardware Entwicklung nach Design Spec. (Stromlaufpläne zeichnen, FMEA, ....) Layout routen, Fertigungsdaten generieren.
+ 
+ *Msc. Dipl. -Ing. Kemal Tokay*
+ 
