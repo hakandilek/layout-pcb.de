@@ -99,7 +99,7 @@ Danach berechnet Altim automatisch die Signale zwischen Mikrokontroller und DDR 
 so definiert man die Leitungsgruppe im PCB mit Altium. Dann kann man die Länge unter einer Gruppe anpassen.
 
 ### Wichtige Parameters beim High Speed Signalen
-* Hier sind 5 Goldene Regeln gültig*
+* Hier sind 5 Goldene Regeln gültig
 
 
 1. Single Ended oder Differential pair Impedance
@@ -110,16 +110,20 @@ so definiert man die Leitungsgruppe im PCB mit Altium. Dann kann man die Länge 
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/8.Diff_Signal_Anpassung.png)
 
+
+
 * Die Space soll direkt am Anfang seien.
 * Wenn mehr als 2 Space Nötig ist, soll man ein einziges Gröseres Space direkt am Anfang vorsehen.
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/9.Diff_Signal_3Space.png)
 
-* Schlechtes Beispiel
+
+* unten wird ein schlechtes Beispiel dargestellt.
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/10.Diff_Sig_Bad.png)
 
-* Gutes Beispiel
+
+* unten wird ein gutes Beispiel dargestellt.
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/11.Diff_Sig_good.png)
 
