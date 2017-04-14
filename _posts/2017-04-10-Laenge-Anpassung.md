@@ -23,11 +23,11 @@ permalink: /posts/Leitungslaenge
 * In Luft breiten sich Signale mit Lichtgeschwindigkeit aus. Auf der Platine sind sie langsamer.  
   (LP-Meterial) = 2.8..4,3
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/1.Er_Lagen.png) 
-Layer1 = Er = 2,8
-Layer2 = Er = 4,2
-Layer3 = Er = 3,8
+*Layer1 = Er = 2,8*
+*Layer2 = Er = 4,2*
+*Layer3 = Er = 3,8*
 
-* 50..70% der Lichtgeschwindigkeit. 15..21 cm/ns0
+* 50..70% der Lichtgeschwindigkeit. 15..21 cm/ns
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/2.Er_Lagen.png) 
 
 
@@ -36,8 +36,8 @@ Layer3 = Er = 3,8
 * Impuls-Reflexionen: an Leitungsenden/ Durchkontaktierung ⇒ Fehltriggerungen
   Die beiden HF-Effekte werden ab einer kritischen Länge der Leiterbahnen wirksam.
   Die kritische Länge deutlich kleiner als die Wellenlänge λ sein. 
-  Ikrit = Cp.tr.1/3 --> tr= (risetime oder falltime)
-  Ikrit = 15 cm/ns . tr. 1/3 --> Lkrit = 5cm/ns . tr
+  *Ikrit = Cp.tr.1/3 --> tr= (risetime oder falltime)*
+  *Ikrit = 15 cm/ns . tr. 1/3 --> Lkrit = 5cm/ns . tr*
 
   z.B: AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
   Lkrit = 5cm/ns . tr --> Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische Länge
@@ -51,9 +51,9 @@ Layer3 = Er = 3,8
 
 * Entsprechend   0,07ns/cm sind bei ns-Impulsen Wegunterschiede im cm-Bereich noch zulässig.
 
-Z.B. AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
---> Lkrit = 5cm/ns .tr --> Lkirt= 5cm/ns . 4ns = 20cm = 200mm
-Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man keine Leitungs-Länge anpassen.
+*Z.B. AT91SAM9261S hat minimale Anstieg zeit ca. 4ns*
+*--> Lkrit = 5cm/ns .tr --> Lkirt= 5cm/ns . 4ns = 20cm = 200mm*
+*Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man keine Leitungs-Länge anpassen.*
 
 * Nacteile zur Leitungslänge Anpassen:
 - Weniger GND-Fläche
