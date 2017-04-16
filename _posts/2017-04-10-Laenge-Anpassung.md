@@ -3,7 +3,7 @@ layout: post
 title:  "Leitungslänge Anpassung"
 date:   2017-04-11 08:00
 categories: Leitungslaenge Anpassung
-permalink: /posts/Leitungslaenge Anpassung
+permalink: /posts/Leitungslaenge-Anpassung
 ---
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/0.Laenge_uebersicht.png) 
