@@ -2,7 +2,7 @@
 layout: post
 title:  "Leitungslänge Anpassung"
 date:   2017-04-11 08:00
-categories: Leitungslaenge Anpassung
+categories: Leitungslaenge-Anpassung
 permalink: /posts/Leitungslaenge-Anpassung
 ---
 
