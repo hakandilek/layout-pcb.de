@@ -6,8 +6,8 @@
 </description>
     <link>http://layout-pcb.de/</link>
     <atom:link href="http://layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Apr 2017 14:17:21 +0000</pubDate>
-    <lastBuildDate>Sun, 16 Apr 2017 14:17:21 +0000</lastBuildDate>
+    <pubDate>Sun, 16 Apr 2017 14:22:59 +0000</pubDate>
+    <lastBuildDate>Sun, 16 Apr 2017 14:22:59 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -207,9 +207,7 @@ Ideal = 5x Leitung Dicke&lt;/p&gt;
         <guid isPermaLink="true">http://layout-pcb.de/posts/Leitungslaenge-Anpassung</guid>
         
         
-        <category>Leitungslaenge</category>
-        
-        <category>Anpassung</category>
+        <category>Leitungslaenge-Anpassung</category>
         
       </item>
     
