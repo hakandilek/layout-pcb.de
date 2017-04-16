@@ -17,7 +17,7 @@ Ich arbeite seit 10 Jahren als Hardware Entwickler und Layouter in der Medizinte
   * WLAN Kamera Sender und Empfänger  Einheit.
 
  Noch zur meiner Arbeit gehören
- Bibliothek einpflegen, Bauteile anlegen, Hardware Entwicklung nach Design Spec. (Stromlaufpläne zeichnen, FMEA, ....) Layout routen, Fertigungsdaten generieren.
+ Bibliothek einpflegen, Bauteile anlegen, Hardware Entwicklung nach Design Spec. (Stromlaufpläne zeichnen, FMEA, ....) Layout routen, Fertigungsdaten (Gerber Files und Stückliste) generieren.
  
  *Msc. Dipl. -Ing. Kemal Tokay*
  
