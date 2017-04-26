@@ -14,7 +14,7 @@ Ich arbeite seit 10 Jahren als Hardware Entwickler und Layouter in der Medizinte
   * 32mm x 22,5mm FR4 und Flex (Starrflex), 2 Lagen
   * 42mm x 99mm LED Kontroller, FR4 und Flex (Starrflex),, HDI(2-4-2), 8Lagen
   * Edge Card(PCI oder ISA) FR4,
-  * WLAN Kamera Sender und Empfänger  Einheit.
+  * WLAN Kamera Sender und Empfänger Einheit.
 
  Noch zur meiner Arbeit gehören
  Bibliothek einpflegen, Bauteile anlegen, Hardware Entwicklung nach Design Spec. (Stromlaufpläne zeichnen, FMEA, ....) Layout routen, Fertigungsdaten (Gerber Files und Stückliste) generieren.
