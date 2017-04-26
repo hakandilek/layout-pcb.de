@@ -20,4 +20,6 @@ Ich arbeite seit 10 Jahren als Hardware Entwickler und Layouter in der Medizinte
  Bibliothek einpflegen, Bauteile anlegen, Hardware Entwicklung nach Design Spec. (Stromlaufpläne zeichnen, FMEA, ....) Layout routen, Fertigungsdaten (Gerber Files und Stückliste) generieren.
  
  *Msc. Dipl. -Ing. Kemal Tokay*
+
+ 
  *info@layout-pcb.de*
