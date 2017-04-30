@@ -6,23 +6,23 @@
 </description>
     <link>http://layout-pcb.de/</link>
     <atom:link href="http://layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Apr 2017 20:56:40 +0000</pubDate>
-    <lastBuildDate>Wed, 26 Apr 2017 20:56:40 +0000</lastBuildDate>
+    <pubDate>Sun, 30 Apr 2017 10:41:27 +0000</pubDate>
+    <lastBuildDate>Sun, 30 Apr 2017 10:41:27 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
-        <title>Leitungslänge Anpassung</title>
+        <title>Leitungslängen Anpassung</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/0.Laenge_uebersicht.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;leitungslänge-anpassung&quot;&gt;Leitungslänge Anpassung&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;Länge Anpassung auf der Platine&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&quot;leitungslängen-anpassung&quot;&gt;Leitungslängen Anpassung&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Längen Anpassung auf der Platine&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;Übersicht&quot;&gt;Übersicht&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Wie schnell bewegt sich das Signal auf der Platine?&lt;/li&gt;
   &lt;li&gt;Was ist die Kritische Leitungslänge?&lt;/li&gt;
-  &lt;li&gt;Wann ist die Leitungslänge Anpassung nötig?&lt;/li&gt;
-  &lt;li&gt;Was für Nachteile hat die Leitungslänge Anpassung?&lt;/li&gt;
+  &lt;li&gt;Wann ist die Leitungslängen Anpassung nötig?&lt;/li&gt;
+  &lt;li&gt;Was für Nachteile hat die Leitungslängen Anpassung?&lt;/li&gt;
   &lt;li&gt;Wie realisieren wir es bei Altium?&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -71,7 +71,7 @@ Lkrit = 5cm/ns . tr –&amp;gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische L�
 
 &lt;p&gt;Merkmale: Bei einer Leitungslaenge von bis zu 20cm treten keine nennenswerten Reflexionen auf und eine Terminierung ist nicht Nötig.&lt;/p&gt;
 
-&lt;h2 id=&quot;leitungslänge-anpassung-1&quot;&gt;Leitungslänge Anpassung&lt;/h2&gt;
+&lt;h2 id=&quot;leitungslängen-anpassung-1&quot;&gt;Leitungslängen Anpassung&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Ausbreitungsgeschwindigkeit ist für Leiterplattenmaterial mit einem Er ist 15cm/ns. Die Signalverzögerung   0,07ns/cm&lt;/p&gt;
@@ -88,10 +88,10 @@ Lkrit = 5cm/ns . tr –&amp;gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische L�
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man nichts anpassen.&lt;/p&gt;
+&lt;p&gt;Die Leitungslängen differenz bis zum 100mm bei dieser Takt würde man nichts anpassen.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Nacteile zur Leitungslänge Anpassen:&lt;/li&gt;
+  &lt;li&gt;Nacteile zur Leitungslängen Anpassen:&lt;/li&gt;
   &lt;li&gt;Weniger GND-Fläche&lt;/li&gt;
   &lt;li&gt;Komplexität der Leiterplatte wird ersteigt.&lt;/li&gt;
   &lt;li&gt;Verschlechterung bei EMV&lt;/li&gt;
@@ -99,7 +99,7 @@ Lkrit = 5cm/ns . tr –&amp;gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische L�
   &lt;li&gt;Mehr benötigte Platz zur Routing&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;leitungslänge-anpassung-bei-altium&quot;&gt;Leitungslänge Anpassung bei Altium&lt;/h2&gt;
+&lt;h2 id=&quot;leitungslängen-anpassung-bei-altium&quot;&gt;Leitungslängen Anpassung bei Altium&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Zwischen Sender und Empfänger meisetn liegen Serien Wiederstände oder Andere Bauteile.&lt;/li&gt;
@@ -131,7 +131,7 @@ Lkrit = 5cm/ns . tr –&amp;gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische L�
 
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/6.xSignal_routes.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;so definiert man die Leitungsgruppe im PCB mit Altium. Dann kann man die Länge unter einer Gruppe anpassen.&lt;/p&gt;
+&lt;p&gt;so definiert man die Leitungsgruppe im PCB mit Altium. Dann kann man die Längen unter einer Gruppe anpassen.&lt;/p&gt;
 
 &lt;h3 id=&quot;wichtige-parameters-beim-high-speed-signalen&quot;&gt;Wichtige Parameters beim High Speed Signalen&lt;/h3&gt;
 &lt;ul&gt;
@@ -145,7 +145,7 @@ Lkrit = 5cm/ns . tr –&amp;gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische L�
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/7.Anpaasung_Altium.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Leitungslänge Anpassung zwischen Differential Signalen&lt;/li&gt;
+  &lt;li&gt;Leitungslängen Anpassung zwischen Differential Signalen&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/8.Diff_Signal_Anpassung.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
