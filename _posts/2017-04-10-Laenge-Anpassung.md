@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Leitungslänge Anpassung"
+title:  "Leitungslängen Anpassung"
 date:   2017-04-11 08:00
 categories: Leitungslaenge-Anpassung
 permalink: /posts/Leitungslaenge
@@ -8,14 +8,14 @@ permalink: /posts/Leitungslaenge
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/0.Laenge_uebersicht.png) 
 
-# Leitungslänge Anpassung 
-*Länge Anpassung auf der Platine* 
+# Leitungslängen Anpassung 
+*Längen Anpassung auf der Platine* 
 
 ## Übersicht
 * Wie schnell bewegt sich das Signal auf der Platine? 
 * Was ist die Kritische Leitungslänge? 
-* Wann ist die Leitungslänge Anpassung nötig? 
-* Was für Nachteile hat die Leitungslänge Anpassung? 
+* Wann ist die Leitungslängen Anpassung nötig? 
+* Was für Nachteile hat die Leitungslängen Anpassung? 
 * Wie realisieren wir es bei Altium? 
 
 ## Ausbreitungsgeschwindigkeit
@@ -49,7 +49,7 @@ permalink: /posts/Leitungslaenge
 
  Merkmale: Bei einer Leitungslaenge von bis zu 20cm treten keine nennenswerten Reflexionen auf und eine Terminierung ist nicht Nötig.
 
-## Leitungslänge Anpassung
+## Leitungslängen Anpassung
 * Ausbreitungsgeschwindigkeit ist für Leiterplattenmaterial mit einem Er ist 15cm/ns. Die Signalverzögerung   0,07ns/cm
 
 * Für synchrones Schalten müssen alle Leitungen im Idealfall die selbe Gesamtlänge zwischen Treiber und den Empfänger haben.
@@ -59,16 +59,16 @@ permalink: /posts/Leitungslaenge
 * Z.B. AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
  --> Lkrit = 5cm/ns .tr --> Lkirt= 5cm/ns . 4ns = 20cm = 200mm
  
- Die Leitungslänge differenz bis zum 100mm bei dieser Takt würde man nichts anpassen.
+ Die Leitungslängen differenz bis zum 100mm bei dieser Takt würde man nichts anpassen.
 
-* Nacteile zur Leitungslänge Anpassen:
+* Nacteile zur Leitungslängen Anpassen:
 - Weniger GND-Fläche
 - Komplexität der Leiterplatte wird ersteigt.
 - Verschlechterung bei EMV
 - Erhöhte Gefahr bei der Leitungskopplung (übersprechen)
 - Mehr benötigte Platz zur Routing
 
-## Leitungslänge Anpassung bei Altium
+## Leitungslängen Anpassung bei Altium
 
 * Zwischen Sender und Empfänger meisetn liegen Serien Wiederstände oder Andere Bauteile.
 
@@ -96,7 +96,7 @@ Danach berechnet Altim automatisch die Signale zwischen Mikrokontroller und DDR 
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/6.xSignal_routes.png)
 
-so definiert man die Leitungsgruppe im PCB mit Altium. Dann kann man die Länge unter einer Gruppe anpassen.
+so definiert man die Leitungsgruppe im PCB mit Altium. Dann kann man die Längen unter einer Gruppe anpassen.
 
 ### Wichtige Parameters beim High Speed Signalen
 * Hier sind 5 Goldene Regeln gültig
@@ -106,7 +106,7 @@ so definiert man die Leitungsgruppe im PCB mit Altium. Dann kann man die Länge 
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/7.Anpaasung_Altium.png)
 
-2. Leitungslänge Anpassung zwischen Differential Signalen
+2. Leitungslängen Anpassung zwischen Differential Signalen
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/8.Diff_Signal_Anpassung.png)
 
