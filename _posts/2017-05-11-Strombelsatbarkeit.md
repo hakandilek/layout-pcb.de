@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Strombelasbarkeit"
+title:  "Strombelastbarkeit"
 date:   2017-04-11 08:00
-categories: Strombelasbarkeit
-permalink: /posts/Strombelasbarkeit
+categories: Strombelastbarkeit
+permalink: /posts/Strombelastbarkeit
 ---
 
 
