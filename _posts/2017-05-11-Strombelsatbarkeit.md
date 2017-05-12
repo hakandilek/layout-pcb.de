@@ -12,3 +12,4 @@ permalink: /posts/Strombelastbarkeit
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/compare/01.via_Strom.png)
 
+Wenn man zweifelt, kann man mehrere Bohrungen (Vias) verwenden.
