@@ -7,9 +7,8 @@ permalink: /posts/Strombelasbarkeit
 ---
 
 
-
-Strombelastbarkeit von Durchkontaktierungen
-
+# Strombelastbarkeit von Durchkontaktierungen
+Strombelsatung von Vias
 
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/compare/01.via_Strom.png)
 
