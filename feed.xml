@@ -6,8 +6,8 @@
 </description>
     <link>http://layout-pcb.de/</link>
     <atom:link href="http://layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 May 2017 20:05:34 +0000</pubDate>
-    <lastBuildDate>Wed, 03 May 2017 20:05:34 +0000</lastBuildDate>
+    <pubDate>Mon, 22 May 2017 21:53:29 +0000</pubDate>
+    <lastBuildDate>Mon, 22 May 2017 21:53:29 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -55,6 +55,24 @@
         <category>Compare</category>
         
         <category>Function</category>
+        
+      </item>
+    
+      <item>
+        <title>Strombelastbarkeit</title>
+        <description>&lt;h1 id=&quot;strombelastbarkeit-von-durchkontaktierungen&quot;&gt;Strombelastbarkeit von Durchkontaktierungen&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Strombelastung von Vias&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/compare/01.via_Strom.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wenn man zweifelt, kann man mehrere Bohrungen (Vias) verwenden.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Apr 2017 08:00:00 +0000</pubDate>
+        <link>http://layout-pcb.de/posts/Strombelastbarkeit</link>
+        <guid isPermaLink="true">http://layout-pcb.de/posts/Strombelastbarkeit</guid>
+        
+        
+        <category>Strombelastbarkeit</category>
         
       </item>
     
