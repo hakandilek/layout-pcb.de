@@ -6,8 +6,8 @@
 </description>
     <link>http://layout-pcb.de/</link>
     <atom:link href="http://layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 May 2017 21:53:29 +0000</pubDate>
-    <lastBuildDate>Mon, 22 May 2017 21:53:29 +0000</lastBuildDate>
+    <pubDate>Mon, 22 May 2017 21:57:17 +0000</pubDate>
+    <lastBuildDate>Mon, 22 May 2017 21:57:17 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -84,6 +84,7 @@
 &lt;p&gt;&lt;em&gt;Längen Anpassung auf der Platine&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;Übersicht&quot;&gt;Übersicht&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Wie schnell bewegt sich das Signal auf der Platine?&lt;/li&gt;
   &lt;li&gt;Was ist die Kritische Leitungslänge?&lt;/li&gt;
@@ -93,6 +94,7 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;ausbreitungsgeschwindigkeit&quot;&gt;Ausbreitungsgeschwindigkeit&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Sehr hohe aber begrenzte Geschwindigkeit.&lt;/li&gt;
   &lt;li&gt;
@@ -118,6 +120,7 @@ Layer3 = Er = 3,8&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/2.Er_Lagen.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;kritische-leitungslänge&quot;&gt;Kritische Leitungslänge&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Resonanzeffekte: auf Leitungen und Potentiallagen ⇒ Störabstrahlung&lt;/li&gt;
   &lt;li&gt;
@@ -138,6 +141,7 @@ Lkrit = 5cm/ns . tr –&amp;gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische L�
 &lt;p&gt;Merkmale: Bei einer Leitungslaenge von bis zu 20cm treten keine nennenswerten Reflexionen auf und eine Terminierung ist nicht Nötig.&lt;/p&gt;
 
 &lt;h2 id=&quot;leitungslängen-anpassung-1&quot;&gt;Leitungslängen Anpassung&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Ausbreitungsgeschwindigkeit ist für Leiterplattenmaterial mit einem Er ist 15cm/ns. Die Signalverzögerung   0,07ns/cm&lt;/p&gt;
@@ -200,6 +204,7 @@ Lkrit = 5cm/ns . tr –&amp;gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische L�
 &lt;p&gt;so definiert man die Leitungsgruppe im PCB mit Altium. Dann kann man die Längen unter einer Gruppe anpassen.&lt;/p&gt;
 
 &lt;h3 id=&quot;wichtige-parameters-beim-high-speed-signalen&quot;&gt;Wichtige Parameters beim High Speed Signalen&lt;/h3&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Hier sind 5 Goldene Regeln gültig&lt;/li&gt;
 &lt;/ul&gt;
