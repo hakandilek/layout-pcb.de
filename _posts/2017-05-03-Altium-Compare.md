@@ -6,14 +6,12 @@ categories: Altium-designer Compare Function
 permalink: /posts/altium-Compare
 ---
 
-
-
 # Altium Designer Compare Function / Revisionen Vergleichen
 *Zwei PCB-Revisionen werden durch diese Funktion vergliechen*
 
 
 
-
+<!--more-->
 
  * In Altium Designer kann man das Layout von zwei Leiterplatten vergleichen. sodass man die Änderungen im Überblick sieht und kontrolliert, dass nicht aus versehen etwas verschoben wurde.
 

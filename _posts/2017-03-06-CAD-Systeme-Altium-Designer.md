@@ -13,6 +13,8 @@ permalink: /posts/altium-designer
 
 
 
+<!--more-->
+
 ## Templates
 
  * Die Templates werden über Preferences &rarr; System &rarr; New Document Defaults eingestellt.

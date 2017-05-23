@@ -10,6 +10,10 @@ permalink: /posts/Strombelastbarkeit
 # Strombelastbarkeit von Durchkontaktierungen
 *Strombelastung von Vias*
 
+
+
+<!--more-->
+
 ![](https://hakandilek.github.io/layout-pcb.de/static/img/Strombelastung/1_Via_Strom.png)
 
 Wenn man zweifelt, kann man mehrere Bohrungen (Vias) verwenden.
