@@ -14,10 +14,8 @@ profile: Tipps über PCB-Layout in Altium
 twitter_username: Layout_erlangen
 #github_username:  github_username
 
-# Comment Service (Disqus or 多说)
-#  choose one and un-comment the line to active it
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
-#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+# Comment Service (Disqus)
+disqus_shortname: pcb-layout   # get one: https://disqus.com/admin/signup/
 
 permalink: /posts/:title
 gems:
