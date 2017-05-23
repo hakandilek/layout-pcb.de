@@ -6,8 +6,8 @@
 </description>
     <link>http://layout-pcb.de/</link>
     <atom:link href="http://layout-pcb.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 May 2017 19:23:56 +0000</pubDate>
-    <lastBuildDate>Tue, 23 May 2017 19:23:56 +0000</lastBuildDate>
+    <pubDate>Tue, 23 May 2017 19:28:07 +0000</pubDate>
+    <lastBuildDate>Tue, 23 May 2017 19:28:07 +0000</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
     
       <item>
@@ -63,7 +63,7 @@
         <description>&lt;h1 id=&quot;strombelastbarkeit-von-durchkontaktierungen&quot;&gt;Strombelastbarkeit von Durchkontaktierungen&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Strombelastung von Vias&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/Strombelastung/01.Via_Strom.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://hakandilek.github.io/layout-pcb.de/static/img/Strombelastung/1_Via_Strom.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Wenn man zweifelt, kann man mehrere Bohrungen (Vias) verwenden.&lt;/p&gt;
 </description>
