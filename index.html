@@ -72,35 +72,6 @@
           <h1 id="altium-designer-compare-function--revisionen-vergleichen">Altium Designer Compare Function / Revisionen Vergleichen</h1>
 <p><em>Zwei PCB-Revisionen werden durch diese Funktion vergliechen</em></p>
 
-<ul>
-  <li>In Altium Designer kann man das Layout von zwei Leiterplatten vergleichen. sodass man die Änderungen im Überblick sieht und kontrolliert, dass nicht aus versehen etwas verschoben wurde.</li>
-</ul>
-
-<h2 id="1-storage-manager-auswählen">1. Storage Manager auswählen</h2>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/compare/1_compare_pcb.png" alt="" /></p>
-
-<p>Im Storage Manager kann man seine Leiterplatte unter Project files auswählen (1). Danach kann man im Abschnitt Timeline die beiden Versionen (mit Strg/Ctrl) markieren, die verglichen werden sollen (2). Mit der rechten Maustaste auf eine der beiden Versionen kann man Compare (3) aktivieren.</p>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/compare/2_Differences.png" alt="" /></p>
-
-<p>Die Dateien werden nun vom SVN Server geladen und im aktiven Fenster wie unten nebeneinander angezeigt.</p>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/compare/3_Differences.png" alt="" /></p>
-
-<h2 id="2-collaborate-compare-and-merge-auswählen">2. Collaborate, Compare and Merge auswählen</h2>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/compare/4_Collaborate.png" alt="" /></p>
-
-<p>Am besten man aktiviert die neuste Version mithilfe der Maustaste. Im Collaborate, Compare and Merge Fenster klickt man nun auf “Click to show differences against any PCB Document”. In dem Fenster stehen nun alle geöffneten PCBs zur Auswahl (2). Man wählt die richtige Version aus, um die beiden zu vergleichen. Das berechnen der Unterschiede dauert etwas. Danach erscheint folgendes Bild.</p>
-
-<h2 id="3-unterschiede-finden">3. Unterschiede finden</h2>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/compare/4_Collaborate2.png" alt="" /> 
-<img src="https://hakandilek.github.io/layout-pcb.de/static/img/compare/5_Differences.png" alt="" /></p>
-
-<p>Die Difference Map wird nun farbig und zeigt Kästchen an (3). Bleiben Kästchen grau, so hat sich in dem Bereich nichts geändert. Die Größe der Kästchen kann man auch verändern (1). Klickt man auf ein bestimmtes Kästchen wird das Kästchen im PCB Viewer in beiden Versionen automatisch synchron angezeigt. Man kann sich auch in der vorher ausgewählten Version die Unterschiede anzeigen lassen (2). Die Unterschiede werden dann überlagert dargestellt. Man sollte sich alle Lagen einzeln anschauen (4), dann sieht man auch sofort in der Difference Map in welchen Bereich sich etwas verändert hat.</p>
-
 
           <p>
             <a class="post-link" href="/posts/altium-Compare">Read More &raquo;</a>
@@ -119,9 +90,6 @@
           <h1 id="strombelastbarkeit-von-durchkontaktierungen">Strombelastbarkeit von Durchkontaktierungen</h1>
 <p><em>Strombelastung von Vias</em></p>
 
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/Strombelastung/1_Via_Strom.png" alt="" /></p>
-
-<p>Wenn man zweifelt, kann man mehrere Bohrungen (Vias) verwenden.</p>
 
           <p>
             <a class="post-link" href="/posts/Strombelastbarkeit">Read More &raquo;</a>
@@ -142,195 +110,6 @@
 <h1 id="leitungslängen-anpassung">Leitungslängen Anpassung</h1>
 <p><em>Längen Anpassung auf der Platine</em></p>
 
-<h2 id="Übersicht">Übersicht</h2>
-
-<ul>
-  <li>Wie schnell bewegt sich das Signal auf der Platine?</li>
-  <li>Was ist die Kritische Leitungslänge?</li>
-  <li>Wann ist die Leitungslängen Anpassung nötig?</li>
-  <li>Was für Nachteile hat die Leitungslängen Anpassung?</li>
-  <li>Wie realisieren wir es bei Altium?</li>
-</ul>
-
-<h2 id="ausbreitungsgeschwindigkeit">Ausbreitungsgeschwindigkeit</h2>
-
-<ul>
-  <li>Sehr hohe aber begrenzte Geschwindigkeit.</li>
-  <li>
-    <p>In Luft breiten sich Signale mit Lichtgeschwindigkeit aus. Auf der Platine sind sie langsamer.</p>
-
-    <p>(LP-Meterial) = 2.8..4,3</p>
-  </li>
-</ul>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/1.Er_Lagen.png" alt="" /></p>
-
-<ul>
-  <li>
-    <p>Layer1 = Er = 2,8
-Layer2 = Er = 4,2
-Layer3 = Er = 3,8</p>
-  </li>
-  <li>
-    <p>50..70% der Lichtgeschwindigkeit. 15..21 cm/ns</p>
-  </li>
-</ul>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/2.Er_Lagen.png" alt="" /></p>
-
-<h2 id="kritische-leitungslänge">Kritische Leitungslänge</h2>
-
-<ul>
-  <li>Resonanzeffekte: auf Leitungen und Potentiallagen ⇒ Störabstrahlung</li>
-  <li>
-    <p>Impuls-Reflexionen: an Leitungsenden/ Durchkontaktierung ⇒ Fehltriggerungen
-Die beiden HF-Effekte werden ab einer kritischen Länge der Leiterbahnen wirksam.
-Die kritische Länge deutlich kleiner als die Wellenlänge λ sein.</p>
-
-    <ul>
-      <li>Ikrit = Cp.tr.1/3 –&gt; tr= (risetime oder falltime)</li>
-      <li>Ikrit = 15 cm/ns . tr. 1/3 –&gt; Lkrit = 5cm/ns . tr</li>
-    </ul>
-
-    <p>z.B: AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
-Lkrit = 5cm/ns . tr –&gt; Lkrit = 5cm/ns . 4ns = 20cm = 200mm Kritische Länge</p>
-  </li>
-</ul>
-
-<p>Merkmale: Bei einer Leitungslaenge von bis zu 20cm treten keine nennenswerten Reflexionen auf und eine Terminierung ist nicht Nötig.</p>
-
-<h2 id="leitungslängen-anpassung-1">Leitungslängen Anpassung</h2>
-
-<ul>
-  <li>
-    <p>Ausbreitungsgeschwindigkeit ist für Leiterplattenmaterial mit einem Er ist 15cm/ns. Die Signalverzögerung   0,07ns/cm</p>
-  </li>
-  <li>
-    <p>Für synchrones Schalten müssen alle Leitungen im Idealfall die selbe Gesamtlänge zwischen Treiber und den Empfänger haben.</p>
-  </li>
-  <li>
-    <p>Entsprechend   0,07ns/cm sind bei ns-Impulsen Wegunterschiede im cm-Bereich noch zulässig.</p>
-  </li>
-  <li>
-    <p>Z.B. AT91SAM9261S hat minimale Anstieg zeit ca. 4ns
- –&gt; Lkrit = 5cm/ns .tr –&gt; Lkirt= 5cm/ns . 4ns = 20cm = 200mm</p>
-  </li>
-</ul>
-
-<p>Die Leitungslängen differenz bis zum 100mm bei dieser Takt würde man nichts anpassen.</p>
-
-<ul>
-  <li>Nacteile zur Leitungslängen Anpassen:</li>
-  <li>Weniger GND-Fläche</li>
-  <li>Komplexität der Leiterplatte wird ersteigt.</li>
-  <li>Verschlechterung bei EMV</li>
-  <li>Erhöhte Gefahr bei der Leitungskopplung (übersprechen)</li>
-  <li>Mehr benötigte Platz zur Routing</li>
-</ul>
-
-<h2 id="leitungslängen-anpassung-bei-altium">Leitungslängen Anpassung bei Altium</h2>
-
-<ul>
-  <li>Zwischen Sender und Empfänger meisetn liegen Serien Wiederstände oder Andere Bauteile.</li>
-</ul>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/3.xSignal.png" alt="" /></p>
-
-<ul>
-  <li>Meisten verteil sich das Signal Y-Förmig.</li>
-</ul>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/4.YForm.png" alt="" /></p>
-
-<p>z.B. Die Leitungen zwischen Mikrokontroller und DDR Rams</p>
-
-<ul>
-  <li>Design –&gt; xSignals –&gt; Run xSignals Wizard</li>
-</ul>
-
-<p>Select the source component (Signal Quelle = Mikrokontroller)</p>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/5.DDR_Signal.png" alt="" /></p>
-
-<p>Alle Signale zum diesen Familie werden gewählt.</p>
-
-<p>Select Destination Components (Signal Ziel = DDR-Rams)</p>
-
-<p>Danach berechnet Altim automatisch die Signale zwischen Mikrokontroller und DDR Bausteine in einer Tabelle.</p>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/6.xSignal_routes.png" alt="" /></p>
-
-<p>so definiert man die Leitungsgruppe im PCB mit Altium. Dann kann man die Längen unter einer Gruppe anpassen.</p>
-
-<h3 id="wichtige-parameters-beim-high-speed-signalen">Wichtige Parameters beim High Speed Signalen</h3>
-
-<ul>
-  <li>Hier sind 5 Goldene Regeln gültig</li>
-</ul>
-
-<ol>
-  <li>Single Ended oder Differential pair Impedance</li>
-</ol>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/7.Anpaasung_Altium.png" alt="" /></p>
-
-<ol>
-  <li>Leitungslängen Anpassung zwischen Differential Signalen</li>
-</ol>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/8.Diff_Signal_Anpassung.png" alt="" /></p>
-
-<ul>
-  <li>Die Space soll direkt am Anfang seien.</li>
-  <li>Wenn mehr als 2 Space Nötig ist, soll man ein einziges Gröseres Space direkt am Anfang vorsehen.</li>
-</ul>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/9.Diff_Signal_3Space.png" alt="" /></p>
-
-<ul>
-  <li>unten wird ein schlechtes Beispiel dargestellt.</li>
-</ul>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/10.Diff_Sig_Bad.png" alt="" /></p>
-
-<ul>
-  <li>unten wird ein gutes Beispiel dargestellt.</li>
-</ul>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/11.Diff_Sig_good.png" alt="" /></p>
-
-<ul>
-  <li>Design Rule für Differentiall Signale definieren.</li>
-</ul>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/12.Diff_Sig_Rules.png" alt="" /></p>
-
-<ol>
-  <li>Abstände zwischen Leitungen (Crosstalk)</li>
-</ol>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/13.crosstalk.png" alt="" /></p>
-
-<p>Schlecht:</p>
-
-<p>Weil das Signal kann überspringen.</p>
-
-<p>Gut: 
-Winkel : 45°; 
-Abstand zwischen Leitungen minimal = 3x Leitung Dicke
-Ideal = 5x Leitung Dicke</p>
-
-<p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-04-10/14.Ideal_Routing.png" alt="" /></p>
-
-<ol>
-  <li>
-    <p>Gleiche Signalgrouppe werden zusammen geführt.</p>
-  </li>
-  <li>
-    <p>Man soll maximal 5Leitungen Parallel durchführen dann soll ein GND Signal mit geführt werden.</p>
-  </li>
-</ol>
-
 
           <p>
             <a class="post-link" href="/posts/Leitungslaenge">Read More &raquo;</a>
@@ -347,6 +126,9 @@ Ideal = 5x Leitung Dicke</p>
 
         <div class="post-excerpt">
           <p><img src="https://hakandilek.github.io/layout-pcb.de/static/img/2017-03-06/0.AltiumDesigner.png" alt="" /></p>
+
+<h1 id="cad-systeme---altium-designer-design-tipps">CAD Systeme - Altium Designer Design Tipps</h1>
+<p><em>Einführung und Designtips</em></p>
 
 
           <p>
